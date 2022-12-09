@@ -41,10 +41,12 @@ We then plotted the map and gave the user the option to insert however many obst
 
 They are then all then used in a For loop `for n in range(len(goal_arr)-1)` to use the functions and breaks the loop only when Robo reaches his end goal (the blue diamond) 
 
-![Below is a flowchart to show the process of the code in a simpler way](/home/it/Downloads/Flowchart.png)
+# Flowchart
+# <img width="405" alt="Flowchart" src="https://user-images.githubusercontent.com/114486423/206733963-da906261-0e0c-4084-a40f-d8f9f7079115.png">
 
 # Critical Assesment Of Limitations
 In this code there is a room for improvement just like anything else in the world. For example; it has a set target and a set starting position because the path is set on an array of points `goal_arr[]`, it could be altered to make these variables rather than constant. It also does steer a bit too much sometimes while avoiding obstacles. The maze is also only an image and could be improved to be set as an obstacle and Robo would automatically avoid it. Robo also still does not understand how to steer and move in a direction that would be the best path to be taken to the goal. This is not much of a limitation but Robo's movement is also not the smoothest. Any helpful critisism is also much appreciated.
 
 # Real Life Applications
 Robo could be used in a warehouse where he knows the map exactly and picks up packages from one place in the warehouse to another while avoiding any contact with people working and any other obstacles he might face. He could also be programmed to become an autonomous vehicle that can navigate around a whole city with a satellite map.
+
