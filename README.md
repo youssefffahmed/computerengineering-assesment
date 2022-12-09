@@ -1,5 +1,5 @@
 # Aim of the Code
-The aim of this code is to start the robot (robo) at a certain position and make this robot navigate through walls and random obstacles to escape a maze.
+The aim of this code is to start the robot (robo) at a certain position and make this robot navigate through walls and random obstacles to escape a maze by reaching a goal position (the blue diamond).
 
 # Requirements to use this code
 Most importantly install python 3.6 or newer, then preferably use Ubuntu(64-bit) 18.04 as the oparting system (more reliable). Then you should install Oracle VM Virtual Box and Roboticstoolbox to import all the libraries used. This code was made using VS code but an alternate program that can use python could be used if wanted.
